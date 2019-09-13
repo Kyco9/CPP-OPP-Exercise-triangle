@@ -18,5 +18,13 @@
     <ClCompile Include="BaiTap_LTHDT_Tuan_3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TamGiac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TamGiac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

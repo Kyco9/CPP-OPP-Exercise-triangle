@@ -3,6 +3,7 @@ class TamGiac
 {
 private:
 	int a, b, c;
+	int hehe = 0;
 
 public:
 	//Khởi tạo tam giác mặc định
@@ -14,7 +15,7 @@ public:
 	//Xuất 3 cạnh tam giác
 	void Xuat();
 	//Tính chu vi tam giác
-	float ChuVi();
+	void ChuVi();
 	//Tính diện tích tam giác
 	float DienTich();
 	//Phân loại tam giác thường, cân hay vuông
