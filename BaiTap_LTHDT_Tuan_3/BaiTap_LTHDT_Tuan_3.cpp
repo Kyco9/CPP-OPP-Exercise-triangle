@@ -6,11 +6,18 @@
 using namespace std;
 int main()
 {
+	int d = 6, e = 8, f = 10;
 	TamGiac T;
+
 	T.Nhap();
+	cout << "\n--------------------------";
 	T.Xuat();
+	cout << "\n--------------------------";
 	T.DaylaTamGiacgi();
+	cout << "\n--------------------------";
 	T.ChuVi();
+	cout << "\n------------DONE--------------";
+	//T.DienTich();
 	return 0;
 }
 

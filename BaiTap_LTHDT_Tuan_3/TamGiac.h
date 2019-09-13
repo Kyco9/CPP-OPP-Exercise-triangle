@@ -4,6 +4,7 @@ class TamGiac
 private:
 	int a, b, c;
 	int hehe = 0;
+	float p;
 
 public:
 	//Khởi tạo tam giác mặc định
@@ -17,7 +18,7 @@ public:
 	//Tính chu vi tam giác
 	void ChuVi();
 	//Tính diện tích tam giác
-	float DienTich();
+//	void DienTich();
 	//Phân loại tam giác thường, cân hay vuông
 	void DaylaTamGiacgi();
 };

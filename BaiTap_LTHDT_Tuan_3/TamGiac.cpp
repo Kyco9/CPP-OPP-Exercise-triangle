@@ -1,4 +1,4 @@
-#include "TamGiac.h"
+﻿#include "TamGiac.h"
 #include <iostream>
 #include <math.h>
 
@@ -10,6 +10,8 @@ TamGiac::TamGiac()
 	b = 3; 
 	c = 4;
 }
+
+
 
 TamGiac::TamGiac(int _a, int _b, int _c)
 {
@@ -26,7 +28,7 @@ void TamGiac::Nhap()
 
 void TamGiac::Xuat()
 {
-	cout << "\nCanh a = " << a << "\tCanh b = " << b << "Canh c = " << c;
+	cout << "\nCanh a = " << a << "\tCanh b = " << b << "\tCanh c = " << c;
 }
 
 void TamGiac::DaylaTamGiacgi()
@@ -62,7 +64,6 @@ void TamGiac::DaylaTamGiacgi()
 
 void TamGiac::ChuVi()
 {
-	TamGiac::DaylaTamGiacgi();
 	if (hehe == 4 || hehe == 3)
 		cout << "\nChu vi bang: " << a + b + c;
 	else if (hehe == 2)
@@ -78,7 +79,31 @@ void TamGiac::ChuVi()
 	}
 }
 
-float TamGiac::DienTich()
-{
-	
-}
+//void TamGiac::DienTich()
+//{
+//	if (hehe == 4) //tam giác thường sử dụng Heron
+//	{
+//		p = 1 / 2 * (a + c + b);
+//		cout << "\nDien tich bang: "<<sqrt(p * (p - a) * (p - b) * (p - c)) * 1.0;
+//	}
+//	else if (hehe == 3)
+//	{
+//		cout << "\nDien tich bang: "<<a * b * 0.5;
+//	}
+//	else if (hehe == 2)
+//	{
+//		cout << "\nDien tich bang: "<<pow(a, 2) * (sqrt(3) / 4) * 1.0;
+//	}
+//	else if (hehe == 1)
+//	{
+//		if (a == b) {
+//			cout << "\nDien tich bang: "<< 1/4*c * 1.0;
+//		}
+//		else if (a == c) {
+//			cout << "\nDien tich bang: "<<1 / 4 * b*1.0;
+//		}
+//		else {
+//			cout << "\nDien tich bang: "<<1 / 4 * a*1.0;
+//		}
+//	}
+//}
