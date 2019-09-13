@@ -42,5 +42,3 @@ void TamGiac::DaylaTamGiacgi()
 {
 
 }
-
-//TEst git kkkk
