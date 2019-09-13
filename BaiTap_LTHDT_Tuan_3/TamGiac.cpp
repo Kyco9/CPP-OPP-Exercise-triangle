@@ -7,3 +7,12 @@ TamGiac::TamGiac()
 TamGiac::TamGiac(int a, int b, int c)
 {
 }
+
+void TamGiac::Nhap()
+{
+}
+
+void TamGiac::Xuat()
+{
+
+}
